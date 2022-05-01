@@ -1,0 +1,38 @@
+
+
+  .carousel-c {
+    width: 100%;
+    
+
+  }
+
+  .couponCarousel {
+    width: 95%;
+    border: solid 1px transparent;
+  }
+
+.rec.rec-dot {
+  visibility: hidden;
+}
+
+.carousel__label_c {
+  height: 50px;
+  border: solid gray transparent;
+  border-bottom: solid 1px lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.label__cc {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+
+
+}
+

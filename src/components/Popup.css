@@ -1,0 +1,96 @@
+
+
+.da__popup {
+    position: fixed;
+    
+    width: 100vw;
+    height: 95vh;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.da__popup_inner {
+    
+  
+    width: 325px;
+    height: 600px;
+    background-color: red;
+    margin-bottom: 200px;
+    border-radius: 2rem;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    border: 1px solid slategray;
+
+}
+
+.da__inner_location {
+    height: 60px;
+    width: 100%;
+    background-color: var(--amazonLightGray);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.food__availability_label {
+    height: 40px;
+    font-size: 0.75rem;
+    color: var(--amazonBlack);
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.food__address_box {
+    height: fit-content;
+    padding: 10px;
+    font-size: small;
+    color: var(--amazonBlack);
+    border: solid 1px black;
+    background-color: transparent;
+
+}
+
+
+.food__address_box:first {
+    background-color: orange;
+
+}
+
+.food__address_box:hover {
+    background-color: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+
+.food__address_box:active {
+    background-color: orange;
+}
+
+.food__manage_lbl {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: solid black;
+    width: 100%;
+    height: 2rem;
+
+}
+
+.food__manage_lbl h6 {
+    padding-left: 10px;
+    padding-right: 5px;
+
+}
+
+.food__manage_lbl > h6:hover {
+    color: var(--uglyOrange);
+    text-decoration: underline;
+    cursor: pointer;
+}
