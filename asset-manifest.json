@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/current-portfolio/static/css/main.f27ed3ed.css",
+    "main.js": "/current-portfolio/static/js/main.b1d8a0ab.js",
+    "static/media/netflix_app_animation.gif": "/current-portfolio/static/media/netflix_app_animation.41f71f8980ae6e93f739.gif",
+    "static/media/amazon_app_animation.gif": "/current-portfolio/static/media/amazon_app_animation.c9a6b3e7f480bb99e91e.gif",
+    "static/media/duff_app_pic.png": "/current-portfolio/static/media/duff_app_pic.a90b78840cc64225cf36.png",
+    "static/media/chatbot_animation.gif": "/current-portfolio/static/media/chatbot_animation.5525ec726601ce942fd0.gif",
+    "static/media/netflix_app_pic.png": "/current-portfolio/static/media/netflix_app_pic.a1cdb2c0032a9b159a93.png",
+    "static/media/cool_background2.jpg": "/current-portfolio/static/media/cool_background2.06c66f5481efebf00fad.jpg",
+    "static/media/amazon_app_pic.png": "/current-portfolio/static/media/amazon_app_pic.65ed0aef16e651fcc98f.png",
+    "static/media/burr3.wav": "/current-portfolio/static/media/burr3.fea0e1c9c93afda55df6.wav",
+    "static/media/bench.jpg": "/current-portfolio/static/media/bench.892e87ed01541da1cc6d.jpg",
+    "static/media/obama3.wav": "/current-portfolio/static/media/obama3.57510464198439751deb.wav",
+    "static/media/self.jpg": "/current-portfolio/static/media/self.69aeee9c1d9e3cbf9c53.jpg",
+    "static/media/burr2.wav": "/current-portfolio/static/media/burr2.6c1419f295439211ae76.wav",
+    "static/media/amy2.wav": "/current-portfolio/static/media/amy2.9c3e7263e09a7e8c48ab.wav",
+    "static/media/amy3.wav": "/current-portfolio/static/media/amy3.fd8b55b6bdc1a5e05de9.wav",
+    "static/media/obama2.wav": "/current-portfolio/static/media/obama2.89e46f2d57e4d8617384.wav",
+    "static/media/email_icon.png": "/current-portfolio/static/media/email_icon.c017edf189f9edbf348b.png",
+    "static/media/burr1.wav": "/current-portfolio/static/media/burr1.a885a9e93583bd76baa5.wav",
+    "static/media/obama1.wav": "/current-portfolio/static/media/obama1.f6cde32313f0f38bf70a.wav",
+    "static/media/laptop_pic.jpg": "/current-portfolio/static/media/laptop_pic.586c27ea02d8b643b37e.jpg",
+    "static/media/amy1.wav": "/current-portfolio/static/media/amy1.b4102e0f77fb184607d0.wav",
+    "static/media/amy4.wav": "/current-portfolio/static/media/amy4.6121d6bb7c6a56f82473.wav",
+    "static/media/burr4.wav": "/current-portfolio/static/media/burr4.058301129d98cc492902.wav",
+    "static/media/obama4.wav": "/current-portfolio/static/media/obama4.cccb59a6420eccf363de.wav",
+    "static/media/skills_symbol.png": "/current-portfolio/static/media/skills_symbol.73b6f0392620dd2c8227.png",
+    "static/media/text_to_speech_pic.jpeg": "/current-portfolio/static/media/text_to_speech_pic.1a02996ae2d1988c2fde.jpeg",
+    "static/media/netflix_logo.png": "/current-portfolio/static/media/netflix_logo.a3092e10ce2527646427.png",
+    "index.html": "/current-portfolio/index.html",
+    "main.f27ed3ed.css.map": "/current-portfolio/static/css/main.f27ed3ed.css.map",
+    "main.b1d8a0ab.js.map": "/current-portfolio/static/js/main.b1d8a0ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f27ed3ed.css",
+    "static/js/main.b1d8a0ab.js"
+  ]
+}
