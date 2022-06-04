@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { AnimatePresence, motion } from "framer-motion";
 import { ModalBox, Container2 } from "./Styles";
-import ContactForm from '../components/ContactForm';
+import ContactForm2 from '../components/ContactForm2';
 
 export const Modal = ({showModal}) => {
   const [poop, showPoop] = useState(showModal)
@@ -23,7 +23,7 @@ export const Modal = ({showModal}) => {
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { delay: 1 } }}
         >
-          <ContactForm />
+          <ContactForm2 />
         </motion.div>
       </ModalBox>
     )}

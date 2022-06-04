@@ -2,9 +2,14 @@
 
   .carousel-c {
     width: 100%;
-    
+    height: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
 
   }
+
+
+
 
   .couponCarousel {
     width: 95%;

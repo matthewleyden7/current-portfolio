@@ -4,8 +4,7 @@ import { skills } from "../data";
 import AOS from 'aos'
 import SkillsSymbol from '../images/skills_symbol.png'
 import "aos/dist/aos.css";
-import FlashyText from "./FlashyText";
-import LaptopPic from '../images/laptop_pic.jpg'
+import FlashyText4 from "./FlashyText4";
 
 
 export default function Skills() {
@@ -16,18 +15,17 @@ export default function Skills() {
     })
   })
   return (
-    <section id="skills">
+    <section id="skills" >
 
-      <div className="container px-5 py-10 mx-auto border-red-500">
+      <div className="container px-5 py-20 mx-auto bg-slate-800">
         
       <div className="text-center mb-20 text-transparent">
           <img src={SkillsSymbol} alt="" className="w-20 h-15 inline-block mb-4" />
 
-          <FlashyText script="Skills &amp; Technologies" centered={true}/>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+          <FlashyText4 script="Skills &amp; Technologies" centered={true}/>
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-white">
+            Web developer with a passion for learning and creating. 
+            
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -46,7 +44,7 @@ export default function Skills() {
         
         </div>
       </div>
-      <img src={LaptopPic} alt="" className="justify-center content-center" />
+     
     </section>
   );
 }

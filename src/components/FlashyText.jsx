@@ -34,6 +34,24 @@ const FlashyText = ({ script, centered }) => {
       [-50, 0], [0, -50], [50, 0], [0, 50],]
       )
 
+      const [nextLoc2, setNextLoc2] = useState([
+        [-300, 0], [0, -275], [250, 0], [0, 225],
+        [-290, 0], [0, -175], [150, 0], [0, 125],
+        [-280, 0], [0, -75], [50, 0], [0, 25],
+        [-270, 0], [0, -50], [50, 0], [0, 50],
+        [-50, 0], [0, -50], [50, 0], [0, 50],
+        [-50, 0], [0, -50], [50, 0], [0, 50],
+        [-50, 0], [0, -50], [50, 0], [0, 50],
+        [-50, 0], [0, -50], [50, 0], [0, 50],
+        [-50, 0], [0, -50], [50, 0], [0, 50],
+        [-50, 0], [0, -50], [50, 0], [0, 50],
+        [-50, 0], [0, -50], [50, 0], [0, 50],
+        [-50, 0], [0, -50], [50, 0], [0, 50],
+        [-50, 0], [0, -50], [50, 0], [0, 50],
+        [-50, 0], [0, -50], [50, 0], [0, 50],
+        [-50, 0], [0, -50], [50, 0], [0, 50],]
+        )
+
       const flashyTextVariants = (x, y, idx2) => {
         return {
         visible: { opacity: 1, x: '0px', y: '0px', transition: { duration: 0.75, delay: idx2 / 10} },
@@ -44,11 +62,12 @@ const FlashyText = ({ script, centered }) => {
 
   return (
     <div className={`${centered ? "flex flex-row flex-wrap pl-100 justify-center" :
-    "lg:flex md:flex lg:pr-24 md:pr-16 flex flex-row flex-wrap"}`}>
+    "lg:flex md:flex lg:pr-24 md:pr-16 flex flex-row flex-wrap text-transparent"}`}>
     {wordArray.map((word, idx) => {
            
            return (
-            <div key={idx} style={{ width: 'fit-content', display: 'flex'}}>
+            <div key={idx} className="focus:outline-none" style={{ width: 'fit-content', display: 'flex'}}
+            >
               {word.split('').map((letter, idx2) => { 
                 return (
                   <motion.h1 
@@ -57,7 +76,7 @@ const FlashyText = ({ script, centered }) => {
                   initial="hidden"
                   animate={controls}
                   variants={flashyTextVariants(nextLoc[idx][0], nextLoc[idx][1], idx2)}
-                  className=" title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-500 at">
+                  className=" title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-500">
                   {letter}
                   </motion.h1>)
               })}

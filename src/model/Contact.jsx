@@ -5,6 +5,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import Bench from '../images/bench.jpg'
 
+
 function Contact() {
 
   const [showModal, setShowModal] = useState(false);
@@ -35,6 +36,7 @@ function Contact() {
       >Visit my Github</ToggleButton>
       </a>
       <Modal showModal={showModal}/>
+     
     </Container>
   );
 }

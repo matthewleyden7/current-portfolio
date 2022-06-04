@@ -1,30 +1,28 @@
-import React, { useState, useEffect } from "react";
-import About from "./components/About";
-import Accordion from "./components/Accordion";
-import AudioPlayer from "./components/AudioPlayer";
-import Nav from "./components/Nav";
-import NavBar from "./components/NavBar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import React from "react"
+import About from "./components/About"
+import NavBar from './components/NavBar'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
 import Contact from './model/Contact'
+import LaptopPic from './images/laptop_pic.jpg'
 
- 
+
+
+
 
 export default function App() {
 
 
 
   return (
-    <main className="text-gray-400 bg-gradient-to-b bg-slate-800 body-font">
-    
+    <div className="bg-slate-800 w-full h-fit">
       <NavBar />
       <About />
       <Skills />
       <Projects />
+      <img src={LaptopPic} alt="" className="w-full h-[300px] lg:h-[350px] xl:h-[450px] 2xl:h-[500px]" />
       <Contact />
-      
-      
 
-    </main>
+    </div>
   );
 }

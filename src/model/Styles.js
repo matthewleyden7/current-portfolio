@@ -30,7 +30,8 @@ export const Container = styled.div`
   color: transparent;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin-top: 3.2rem;
+  padding-top: 5rem;
+
 `;
 
 export const Container2 = styled.div`
