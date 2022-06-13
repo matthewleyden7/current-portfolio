@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/current-portfolio/static/css/main.e369f5c3.css",
-    "main.js": "/current-portfolio/static/js/main.80d11840.js",
+    "main.css": "/current-portfolio/static/css/main.451588a6.css",
+    "main.js": "/current-portfolio/static/js/main.fcbe5638.js",
     "static/media/netflix_app_animation.gif": "/current-portfolio/static/media/netflix_app_animation.41f71f8980ae6e93f739.gif",
     "static/media/amazon_app_animation.gif": "/current-portfolio/static/media/amazon_app_animation.c9a6b3e7f480bb99e91e.gif",
     "static/media/serenity_homes_animation.gif": "/current-portfolio/static/media/serenity_homes_animation.d05f356c48dce841f9f1.gif",
@@ -48,11 +48,11 @@
     "static/media/skills_symbol.png": "/current-portfolio/static/media/skills_symbol.73b6f0392620dd2c8227.png",
     "static/media/text_to_speech_pic.jpeg": "/current-portfolio/static/media/text_to_speech_pic.1a02996ae2d1988c2fde.jpeg",
     "index.html": "/current-portfolio/index.html",
-    "main.e369f5c3.css.map": "/current-portfolio/static/css/main.e369f5c3.css.map",
-    "main.80d11840.js.map": "/current-portfolio/static/js/main.80d11840.js.map"
+    "main.451588a6.css.map": "/current-portfolio/static/css/main.451588a6.css.map",
+    "main.fcbe5638.js.map": "/current-portfolio/static/js/main.fcbe5638.js.map"
   },
   "entrypoints": [
-    "static/css/main.e369f5c3.css",
-    "static/js/main.80d11840.js"
+    "static/css/main.451588a6.css",
+    "static/js/main.fcbe5638.js"
   ]
 }
